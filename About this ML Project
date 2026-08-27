@@ -1,0 +1,7 @@
+Exam Scores Analysis is a beginner-level Exploratory Data Analysis (EDA) project that analyzes students' math, science, and English scores along with their study hours to understand factors affecting final academic performance. The dataset was analyzed using Python, Pandas, NumPy, Matplotlib, and Seaborn in Google Colab.
+
+The project includes checking the dataset structure, missing values, duplicate records, invalid scores, and study-hour outliers. Different graphs such as histograms, boxplots, scatter plots, and a correlation heatmap were used to understand the data and relationships between variables.
+
+After identifying data-quality problems, the dataset was cleaned by removing duplicates, handling invalid values, and filling missing values. Feature engineering was then performed by creating average_subject_score, total_subject_score, and study_intensity. Finally, final_score was selected as the target variable and the remaining features were separated as X.
+
+This project helped in understanding the basic EDA workflow, data cleaning, visualization, and feature engineering using a real-world-style student performance dataset.
